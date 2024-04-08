@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item1"
+            android:title="Datos personales" />
+        <item
+            android:id="@+id/nav_item2"
+            android:title="Maestros" />
+        <item
+            android:id="@+id/nav_item3"
+            android:title="Horarios" />
+        <item
+            android:id="@+id/nav_item4"
+            android:title="Descarga" />
+        <item
+            android:id="@+id/nav_item5"
+            android:title="Croquies" />
+        <item
+            android:id="@+id/nav_item6"
+            android:title="Configuracion" />
+    </group>
+
+</menu>

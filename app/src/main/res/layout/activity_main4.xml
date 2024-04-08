@@ -1,0 +1,84 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Descargas"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:id="@+id/tvdescarga"></TextView>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_12"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/tvdescarga"
+        android:id="@+id/etdatos"></ImageView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etdatos"
+        android:gravity="center"
+        android:text="1.45MB"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/tvtamaño"></TextView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtamaño"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/progressBar"
+        android:gravity="center"
+        android:text="desargando..."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/tvdesargando"></TextView>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/progressBar"
+        android:gravity="center"
+        android:text="Cancelar"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/btncancelar"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncancelar"
+        android:textColor="@color/black"
+        android:text="Regresar"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/tvregresar"></TextView>
+
+
+</RelativeLayout>
